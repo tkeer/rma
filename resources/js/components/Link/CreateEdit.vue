@@ -22,7 +22,7 @@
           </div>
 
           <div class="col-12 p-2">
-            <label for="newtab" class="form-label">Open in new tab?</label>
+            <label for="newtab" class="form-label">Open in a new tab?</label>
             <input type="checkbox" v-model="link.opens_in_new" id="newtab">
           </div>
 
