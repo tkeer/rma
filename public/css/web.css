@@ -1,0 +1,3 @@
+.show-more-less{position:relative}.show-more-less label:after{content:"Show All"}.show-more-less input:checked+label:after{content:"Show Less"}.show-more-less div.description.complete{display:none}.show-more-less input:checked~div.description.limited{display:none!important}.show-more-less input:checked~div.description.complete{display:block!important}
+
+/*# sourceMappingURL=web.css.map*/

@@ -1,0 +1,24 @@
+.show-more-less {
+  position: relative;
+
+  label:after {
+    content: "Show All";
+  }
+  input:checked + label:after {
+    content: "Show Less";
+  }
+
+  div.description.complete {
+    display: none;
+  }
+
+  input:checked {
+    ~ div.description.limited {
+      display: none !important;
+    }
+
+    ~ div.description.complete {
+      display: block !important;
+    }
+  }
+}
